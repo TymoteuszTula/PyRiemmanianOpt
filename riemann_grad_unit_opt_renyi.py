@@ -2,6 +2,21 @@
 
 r"""This code contains the Riemmanian SD algorithm, designed to optimise a cost function J(U)
 defined on the unitary matrices space. Cost function is Renyi entropy.
+
+References
+----------
+    [1] Traian E. Abrudan, Jan Eriksson, and Visa Koivunen. 2008. Steepest descent algorithms for 
+    optimization under unitary matrix constraint. IEEE Transactions on Signal Processing, volume 56,
+    number 3, pages 1134-1147. © 2008
+    [2] Traian Abrudan, Jan Eriksson, and Visa Koivunen. 2008. Conjugate gradient algorithm for 
+    optimization under unitary matrix constraint. Helsinki University of Technology, Department of 
+    Signal Processing and Acoustics, Report 4. ISBN 978-951-22-9483-1. ISSN 1797-4267. 
+    Submitted for publication. © 2008 
+    [3] Traian Abrudan, Jan Eriksson, and Visa Koivunen. 2007. Efficient line search methods for 
+    Riemannian optimization under unitary matrix constraint. In: Conference Record of the 
+    Forty-First Asilomar Conference on Signals, Systems and Computers (ACSSC 2007). Pacific Grove, 
+    CA, USA. 4-7 November 2007, pages 671-675. © 2007
+
 """
 
 import numpy as np
